@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Geo Trivia</title>
+  <link href="Geo Trivia.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <main>
+    <h1 id="title">Do You Know Your Geography? Trivia </h1>
+    <form action="results.html" method="get">
+      <!-- text area -->
+      <div class="questionHeading">1. What is the capital of Canada?
+        <br>
+        <input type="text" name="capital" placeholder="Enter the right answer" style="margin:40px;" required> <br>
+      </div>
+      <!-- radio button -->
+      <div class="questionHeading">2. Is Washington DC in Washington state?
+        <br>
+        <input type="radio" name="dc" value="true" required> True <br>
+        <input type="radio" name="dc" value="false" required> False
+      </div>
+      <br><br>
+      <!-- radio button -->
+      <div class="questionHeading">3. How many states are there in the US? <br>
+        <input type="radio" name="states" value="48" required> 48 <br>
+        <input type="radio" name="states" value="49" required> 49 <br>
+        <input type="radio" name="states" value="50" required> 50 <br>
+        <input type="radio" name="states" value="51" required> 51
+      </div>
+      <br><br>
+      <!-- radio button -->
+      <div class="questionHeading">4.How many continents are there?
+        <input type="number" name="quantity" min="1" max="10" value="1">
+      </div>
+      <br><br>
+      <!-- checkbox -->
+      <div class="questionHeading">5. What are the 5 Great Lakes? (Select all that apply) <br>
+        <input type="checkbox" name="lakes" value="Lake Ontario"> Lake Ontario <br>
+        <input type="checkbox" name="lakes" value="Lake Toronto"> Lake Toronto <br>
+        <input type="checkbox" name="lakes" value="Lake Michigan"> Lake Michigan <br>
+        <input type="checkbox" name="lakes" value="Lake Massachusetts"> Lake Massachusetts <br>
+        <input type="checkbox" name="lakes" value="Lake Huron"> Lake Huron <br>
+        <input type="checkbox" name="lakes" value="Lake Heron"> Lake Heron <br>
+        <input type="checkbox" name="lakes" value="Lake Erie"> Lake Erie <br>
+        <input type="checkbox" name="lakes" value="Lake Mysterious"> Lake Mysterious <br>
+        <input type="checkbox" name="lakes" value="Lake Superior"> Lake Superior <br>
+        <input type="checkbox" name="lakes" value="Lake Inferior"> Lake Inferior <br>
+      </div>
+      <br><br>
+
+      <div class="questionHeading">6. Where do penguins live?
+        <input type="text" name="answer6" size=30 placeholder="Enter answer" required>
+      </div>
+      <br><br>
+
+      <div class="questionHeading">7. Which country is Santa Claus a citizen of? <br>
+        <input type="radio" name="choice7" value="Finland" required> a) Finland
+        <br>
+        <input type="radio" name="choice7" value="Greenland" required> b) Greenland
+        <br>
+        <input type="radio" name="choice7" value="Canada" required> c) Canada
+        <br>
+        <input type="radio" name="choice7" value="US" required> d) United States
+      </div>
+      <br><br>
+
+      <div class="questionHeading">8. Which country borders Madagascar? <br>
+        <input type="radio" name="choice8" value="South Africa" required> a) South Africa
+        <br>
+        <input type="radio" name="choice8" value="Tanzania" required> b) Tanzania
+        <br>
+        <input type="radio" name="choice8" value="All" required> c) All of the above
+        <br>
+        <input type="radio" name="choice8" value="None" required> d) None of the above
+      </div>
+      <br><br>
+
+      <div class="questionHeading">9. What is the largest border between two countries?
+        <br>
+        <p style="margin-left:20px;">Country 1:</p><input type="text" name="answer9" size=30 placeholder="Enter answer" style="margin-left:20px;" required>
+        <p style="margin-left:20px;">Country 2:</p><input type="text" name="answer9" size=30 placeholder="Enter answer" style="margin-left:20px;" required>
+      </div>
+      <br><br>
+
+      <div class="questionHeading">10. Name the world's largest country? <br><br>
+          <input type="text" name="answer10" size=30 placeholder="Enter answer" style="margin-left:20px;" required>
+      </div>
+      <br><br>
+
+      <div class="questionHeading">11. How many oceans are there?
+        <input type="number" id="oceans" name="oceans" value="0" max="10" min="0" required /><br>
+      </div>
+      <br><br>
+
+      <div class="questionHeading">12. What capital city has the greatest population?
+        <br>
+        <input type="radio" class="city" name="city" value="Tokyo" required> Tokyo
+        <br>
+        <input type="radio" class="city" name="city" value="Cairo" required> Cairo
+        <br>
+        <input type="radio" class="city" name="city" value="Jakarta" required> Jakarta
+      </div>
+      <br><br>
+
+      <div class="questionHeading">13. How many currencies exist in the world?
+        <br>
+        <input type="radio" class="money" name="money" value="180" required> 180
+        <br>
+        <input type="radio" class="money" name="money" value="250" required> 250
+        <br>
+        <input type="radio" class="money" name="money" value="125" required> 125
+        <br>
+        <input type="radio" class="money" name="money" value="80" required> 80
+        <br>
+        <input type="radio" class="money" name="money" value="100" required> 100
+      </div>
+      <br><br>
+
+      <div class="questionHeading">14. What is Canada’s national animal?
+        <br>
+        <input type="radio" class="animal" name="animal" value="Moose" required> Moose
+        <br>
+        <input type="radio" class="animal" name="animal" value="Beaver" required> Beaver
+        <br>
+        <input type="radio" class="animal" name="animal" value="Loon" required> Loon
+        <br>
+        <input type="radio" class="animal" name="animal" value="Bison" required> Bison
+      </div>
+      <br><br>
+
+      <div class="questionHeading">15. How well do you think you did?
+        <br><br>
+        Not well <img class="face" src="Images/Depressed.jpg" alt="sad face">
+        <input type="range" id="slider" name="slider" value="0" max="100" min="0" step="20" required />
+        <img class="face" src="Images/Happy.jpg" alt="happy face">
+        Excellent!
+      </div>
+      <br><br>
+
+      <input type="submit" id="submit" value="Submit"/>
+
+  </main>
+
+  <footer>
+           <h3 id="copyright">&copy; 2019 CJM Inc.</h3>
+  </footer>
+
+
+
+
+
+</body>
+
+</html>

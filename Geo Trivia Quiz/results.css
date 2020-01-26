@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(81, 90, 90);
+  color: white;
+  font-family: verdana;
+  font-size: 35px;
+}
+
+footer{
+	text-align:center;
+	padding:1px;
+	margin: 20px 0 0 0;
+	background-color:#fff;
+	color:#999;
+	border-top:dashed thin #999;
+}
+
+h1 {
+  color: rgb(231, 146, 64);
+  font-family: verdana;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3{
+    text-align:center;
+}
+
+nav{
+    text-align:center;
+}
+
+.answer {
+  font-weight: bold;
+  font-size: 35px text-align: center;
+  margin-left:5%;
+  color:#009933;
+}
+
+#about{
+    padding: 15px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 35px;
+    font-family: "Comic Sans Ms", sans-serif;
+    background: #d67cbf;
+    font-weight:bold;
+}
+
+#about:hover{
+    border: #b3ce59 medium solid;
+}
+
+#home{
+    background-color: rgb(112, 193, 183);
+  padding: 15px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  font-size: 35px;
+  font-family:"comic sans ms";
+  font-weight:bold;
+}
+
+#home:hover{
+    border:rgb(112, 193, 183) medium solid;
+}
+
+#instructions{
+    background-color: rgb(231, 205, 86);
+  padding: 15px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  font-size: 35px;
+  font-family:"comic sans ms";
+  font-weight:bold;
+}
+
+#instructions:hover{
+    border:rgb(231, 205, 86) medium solid;
+}
+
+#play{
+    background-color: rgb(179, 206, 89);
+  padding: 15px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  font-size: 35px;
+  font-family:"comic sans ms";
+  font-weight:bold;
+}
+
+#play:hover{
+    border:rgb(179, 206, 89) medium solid;
+}
